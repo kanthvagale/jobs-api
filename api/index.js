@@ -11,7 +11,7 @@ const path = require("path");
 const swaggerUI = require("swagger-ui-express");
 const YAML = require("yamljs");
 // console.log(path.relative());
-const swaggerDocument = YAML.load("./swagger.yaml");
+const swaggerDocument = YAML.load("../swagger.yaml");
 
 const express = require("express");
 const app = express();
