@@ -6,10 +6,11 @@ const helmet = require("helmet");
 const cors = require("cors");
 const xss = require("xss-clean");
 const rateLimiter = require("express-rate-limit");
-
+const path = require("path");
 // Swagger
 const swaggerUI = require("swagger-ui-express");
 const YAML = require("yamljs");
+// console.log(path.relative());
 const swaggerDocument = YAML.load("./swagger.yaml");
 
 const express = require("express");
