@@ -1,7 +1,14 @@
 openapi: 3.0.0
 info:
   title: Jobs API
-  description: ""
+  description: |-
+    This Restfull API allows you to create, read, updata and delete (CRUD) jobs, uses JWT Authentication to verify users to perform the crud operations, this api also has security features such as CORS, rate limiting to prevent api abuse
+
+      github: [https://github.com/kanthvagale/jobs-api](https://github.com/kanthvagale/jobs-api)
+
+     getting started:
+     firstly register/login(if registered), copy the token from the output json, look for authorize (top right) paste the token to authenticate, now you can perform CRUD operations on /jobs route...
+
   contact: {}
   version: "1.0"
 servers:
