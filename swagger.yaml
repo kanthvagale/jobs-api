@@ -1,6 +1,7 @@
 openapi: 3.0.0
 info:
   title: Jobs API
+  description: ""
   contact: {}
   version: "1.0"
 servers:
